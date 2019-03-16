@@ -1,0 +1,30 @@
+{
+  "name": "terasyshub-io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "next": "^8.0.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-jss": "^8.6.1",
+    "react-number-format": "^4.0.6",
+    "react-simple-maps": "^0.12.1",
+    "typeface-poppins": "0.0.54",
+    "validator": "^10.11.0",
+    "victory": "^31.2.0"
+  }
+}
