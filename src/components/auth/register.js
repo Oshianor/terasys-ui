@@ -222,7 +222,7 @@ class Register extends Component {
 				firstname: first,
 				lastname: last
 			},
-			key: config.key
+			devices: []
     };
     
     const options = {
@@ -231,7 +231,7 @@ class Register extends Component {
         'content-type': 'application/json'
       },
       data: JSON.stringify(data),
-      url: config.registerAdmin,
+      url: config.registerUser,
     };
     
 

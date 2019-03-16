@@ -338,17 +338,6 @@ class AddAdmin extends Component {
             variant="outlined"
           />		
 					<div />	
-
-					<Button 
-						variant="outlined" 
-						size="large"
-						color="secondary" 
-						
-						className={classes.button}
-					>
-						Sign Up
-					</Button>
-
         </form>
 			</DialogContent>
 			<DialogActions>
